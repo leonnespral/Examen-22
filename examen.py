@@ -39,3 +39,14 @@
 
 # Mostrar el estado actual del pedido.
 # Recorrer las listas con un for para mostrar productos y precios.
+
+nombre_cliente = input("cual es tu nombre?")
+dinero_disponible = input("cuanta plata tenes?")
+dinero_gastado = 0
+cantidad_de_compras = 0
+cantidad_de_aguas = 0
+cantidad_de_alfajores = 0
+cantidad_de_tostados = 0
+productos = ["agua", "alfajor", "tostados"]
+precios = ["700", "900", "2200"]
+print(f"===== KIOSCO ESCOLAR ===== hola {nombre_cliente}, tu saldo es de {dinero_disponible}")
