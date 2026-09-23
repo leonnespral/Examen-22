@@ -50,3 +50,15 @@ cantidad_de_tostados = 0
 productos = ["agua", "alfajor", "tostados"]
 precios = ["700", "900", "2200"]
 print(f"===== KIOSCO ESCOLAR ===== hola {nombre_cliente}, tu saldo es de {dinero_disponible}")
+print("1. Agua       - $700")
+print("2. Alfajor    - $900")
+print("3. Tostado    - $2200")
+print("4. Consultar pedido")
+print("5. Finalizar compra")
+opcion = input("elija una opcion")
+if opcion == 1
+print("el agua vale $700")
+if opcion == 2 
+print("el alfajor vale $900")
+if opcion == 3 
+print("el tostado vale 2200")
